@@ -3,3 +3,6 @@
 .suo
 .cache
 .trx
+*/bin/*
+*/obj/*
+TestResults
