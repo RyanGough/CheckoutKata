@@ -1,5 +1,0 @@
-C:\Dev\CheckoutKata\CheckoutKata\bin\Debug\CheckoutKata.dll
-C:\Dev\CheckoutKata\CheckoutKata\bin\Debug\CheckoutKata.pdb
-C:\Dev\CheckoutKata\CheckoutKata\obj\Debug\ResolveAssemblyReference.cache
-C:\Dev\CheckoutKata\CheckoutKata\obj\Debug\CheckoutKata.dll
-C:\Dev\CheckoutKata\CheckoutKata\obj\Debug\CheckoutKata.pdb
