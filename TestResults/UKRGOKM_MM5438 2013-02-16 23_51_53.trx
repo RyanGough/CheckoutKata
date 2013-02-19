@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="02fd7296-cf21-4dae-af22-25023e46980e" name="UKRGOKM@MM5438 2013-02-16 23:51:53" runUser="CORP\UKRGOKM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="503acf7b-43d1-4700-a4bc-680fdf9e7651">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="UKRGOKM_MM5438 2013-02-16 23_51_53">
+      <DeploymentItem filename="C:\Dev\CheckoutKata\CheckoutKata\bin\Debug\CheckoutKata.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-02-16T23:51:53.7164995+00:00" queuing="2013-02-16T23:51:53.7895036+00:00" start="2013-02-16T23:51:53.7945039+00:00" finish="2013-02-16T23:51:53.9965155+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetPriceWhenScannedTwoItemsReturnsPrice" storage="c:\dev\checkoutkata\checkoutkata_test\bin\debug\checkoutkata_test.dll" id="027db3c8-59cc-9b4c-7c1f-1dab22c9abb0">
+      <Execution id="736fb021-028f-4853-913f-ca4879c9cc5d" />
+      <TestMethod codeBase="C:/Dev/CheckoutKata/CheckoutKata_Test/bin/Debug/CheckoutKata_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckoutKata_Test.SimpleCheckoutTests, CheckoutKata_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPriceWhenScannedTwoItemsReturnsPrice" />
+    </UnitTest>
+    <UnitTest name="GetPriceWhenSingleItemScannedReturnsPrice" storage="c:\dev\checkoutkata\checkoutkata_test\bin\debug\checkoutkata_test.dll" id="257bc96f-2495-c94b-06a9-bc705381c5fd">
+      <Execution id="2d95cc46-7d08-4340-a2c2-6ad6882fabc8" />
+      <TestMethod codeBase="C:/Dev/CheckoutKata/CheckoutKata_Test/bin/Debug/CheckoutKata_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckoutKata_Test.SimpleCheckoutTests, CheckoutKata_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPriceWhenSingleItemScannedReturnsPrice" />
+    </UnitTest>
+    <UnitTest name="GetPriceWhenNoItemsScannedReturnsZero" storage="c:\dev\checkoutkata\checkoutkata_test\bin\debug\checkoutkata_test.dll" id="107f5601-136b-014b-db20-1b0659491897">
+      <Execution id="a8c05b2f-b345-4f19-998d-a8b819a82489" />
+      <TestMethod codeBase="C:/Dev/CheckoutKata/CheckoutKata_Test/bin/Debug/CheckoutKata_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckoutKata_Test.SimpleCheckoutTests, CheckoutKata_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPriceWhenNoItemsScannedReturnsZero" />
+    </UnitTest>
+    <UnitTest name="GetPriceWhenMultibuyDiscountAppliedItemsReturnsPrice" storage="c:\dev\checkoutkata\checkoutkata_test\bin\debug\checkoutkata_test.dll" id="3e1f6a31-17a5-c953-95f1-fdba0354fa37">
+      <Execution id="b6b17876-f9d0-4bc8-8f62-ed9bb62a2c56" />
+      <TestMethod codeBase="C:/Dev/CheckoutKata/CheckoutKata_Test/bin/Debug/CheckoutKata_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckoutKata_Test.SimpleCheckoutTests, CheckoutKata_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPriceWhenMultibuyDiscountAppliedItemsReturnsPrice" />
+    </UnitTest>
+    <UnitTest name="GetPriceWhenMultibuyDiscountAppliedTwiceItemsReturnsPrice" storage="c:\dev\checkoutkata\checkoutkata_test\bin\debug\checkoutkata_test.dll" id="a0ec63a4-2d3e-4efd-40c6-419d82470765">
+      <Execution id="4ff63a14-fa78-4188-94dd-dbd83f50985f" />
+      <TestMethod codeBase="C:/Dev/CheckoutKata/CheckoutKata_Test/bin/Debug/CheckoutKata_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckoutKata_Test.SimpleCheckoutTests, CheckoutKata_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPriceWhenMultibuyDiscountAppliedTwiceItemsReturnsPrice" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="027db3c8-59cc-9b4c-7c1f-1dab22c9abb0" executionId="736fb021-028f-4853-913f-ca4879c9cc5d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="107f5601-136b-014b-db20-1b0659491897" executionId="a8c05b2f-b345-4f19-998d-a8b819a82489" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="257bc96f-2495-c94b-06a9-bc705381c5fd" executionId="2d95cc46-7d08-4340-a2c2-6ad6882fabc8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e1f6a31-17a5-c953-95f1-fdba0354fa37" executionId="b6b17876-f9d0-4bc8-8f62-ed9bb62a2c56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0ec63a4-2d3e-4efd-40c6-419d82470765" executionId="4ff63a14-fa78-4188-94dd-dbd83f50985f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="736fb021-028f-4853-913f-ca4879c9cc5d" testId="027db3c8-59cc-9b4c-7c1f-1dab22c9abb0" testName="GetPriceWhenScannedTwoItemsReturnsPrice" computerName="MM5438" duration="00:00:00.0110758" startTime="2013-02-16T23:51:53.7965040+00:00" endTime="2013-02-16T23:51:53.9375121+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="736fb021-028f-4853-913f-ca4879c9cc5d">
+    </UnitTestResult>
+    <UnitTestResult executionId="a8c05b2f-b345-4f19-998d-a8b819a82489" testId="107f5601-136b-014b-db20-1b0659491897" testName="GetPriceWhenNoItemsScannedReturnsZero" computerName="MM5438" duration="00:00:00.0001607" startTime="2013-02-16T23:51:53.9385122+00:00" endTime="2013-02-16T23:51:53.9415123+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8c05b2f-b345-4f19-998d-a8b819a82489">
+    </UnitTestResult>
+    <UnitTestResult executionId="2d95cc46-7d08-4340-a2c2-6ad6882fabc8" testId="257bc96f-2495-c94b-06a9-bc705381c5fd" testName="GetPriceWhenSingleItemScannedReturnsPrice" computerName="MM5438" duration="00:00:00.0001719" startTime="2013-02-16T23:51:53.9435124+00:00" endTime="2013-02-16T23:51:53.9465126+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d95cc46-7d08-4340-a2c2-6ad6882fabc8">
+    </UnitTestResult>
+    <UnitTestResult executionId="b6b17876-f9d0-4bc8-8f62-ed9bb62a2c56" testId="3e1f6a31-17a5-c953-95f1-fdba0354fa37" testName="GetPriceWhenMultibuyDiscountAppliedItemsReturnsPrice" computerName="MM5438" duration="00:00:00.0005824" startTime="2013-02-16T23:51:53.9475127+00:00" endTime="2013-02-16T23:51:53.9505128+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6b17876-f9d0-4bc8-8f62-ed9bb62a2c56">
+    </UnitTestResult>
+    <UnitTestResult executionId="4ff63a14-fa78-4188-94dd-dbd83f50985f" testId="a0ec63a4-2d3e-4efd-40c6-419d82470765" testName="GetPriceWhenMultibuyDiscountAppliedTwiceItemsReturnsPrice" computerName="MM5438" duration="00:00:00.0314400" startTime="2013-02-16T23:51:53.9525130+00:00" endTime="2013-02-16T23:51:53.9865149+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ff63a14-fa78-4188-94dd-dbd83f50985f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;30&gt;. Actual:&lt;35&gt;. </Message>
+          <StackTrace>   at CheckoutKata_Test.SimpleCheckoutTests.GetPriceWhenMultibuyDiscountAppliedTwiceItemsReturnsPrice() in C:\Dev\CheckoutKata\CheckoutKata_Test\SimpleCheckoutTests.cs:line 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

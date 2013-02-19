@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckoutKata", "CheckoutKata\CheckoutKata.csproj", "{30D6F370-7906-4856-9633-A0FA8C54DDB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckoutKata_Test", "CheckoutKata_Test\CheckoutKata_Test.csproj", "{9849666A-DD66-436F-9E4B-F979FA95F979}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BDA66B93-884B-4B2D-989E-C45E3E8B3A67}"
+	ProjectSection(SolutionItems) = preProject
+		CheckoutKata.vsmdi = CheckoutKata.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CheckoutKata.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30D6F370-7906-4856-9633-A0FA8C54DDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D6F370-7906-4856-9633-A0FA8C54DDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D6F370-7906-4856-9633-A0FA8C54DDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D6F370-7906-4856-9633-A0FA8C54DDB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9849666A-DD66-436F-9E4B-F979FA95F979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9849666A-DD66-436F-9E4B-F979FA95F979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9849666A-DD66-436F-9E4B-F979FA95F979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9849666A-DD66-436F-9E4B-F979FA95F979}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
