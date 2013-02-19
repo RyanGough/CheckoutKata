@@ -15,7 +15,7 @@ namespace CheckoutKata
 
         public int Price(string item)
         {
-            return (int)_PriceList[item];
+            return _PriceList[item];
         }
         
         public void MultibuyDiscount(string item, int quantity, int discountPrice)
@@ -40,7 +40,7 @@ namespace CheckoutKata
 
         private MultibuyDiscount Discount(string item)
         {
-            return (MultibuyDiscount)_DiscountList[item];
+            return _DiscountList[item];
         }
     }
 }
